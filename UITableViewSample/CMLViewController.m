@@ -33,10 +33,8 @@
 
 - (void)loadXib
 {
-    CMLTableView *tableView = [[CMLTableView alloc] initWithFrame:CGRectMake(self.view.frame.origin.x,
-                                                                            self.view.frame.origin.y,
-                                                                            self.view.frame.size.width,
-                                                                            self.view.frame.size.height)];
+    CMLTableView *tableView = [[CMLTableView alloc] initWithFrame:CGRectMake(self.view.frame.origin.x, self.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height)];
+
     [self.view addSubview:tableView];
 }
 @end
