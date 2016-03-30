@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C7F79551CAB5FB0000F0C48 /* CMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F79541CAB5FB0000F0C48 /* CMLViewController.m */; };
 		CC50A02D1CAA059B00FF52B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC50A02C1CAA059B00FF52B3 /* main.m */; };
 		CC50A0301CAA059B00FF52B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC50A02F1CAA059B00FF52B3 /* AppDelegate.m */; };
-		CC50A0331CAA059B00FF52B3 /* CMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC50A0321CAA059B00FF52B3 /* CMLViewController.m */; };
 		CC50A0361CAA059B00FF52B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC50A0341CAA059B00FF52B3 /* Main.storyboard */; };
 		CC50A0381CAA059B00FF52B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC50A0371CAA059B00FF52B3 /* Assets.xcassets */; };
 		CC50A03B1CAA059B00FF52B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC50A0391CAA059B00FF52B3 /* LaunchScreen.storyboard */; };
@@ -18,12 +18,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C7F79531CAB5FB0000F0C48 /* CMLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMLViewController.h; sourceTree = "<group>"; };
+		7C7F79541CAB5FB0000F0C48 /* CMLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMLViewController.m; sourceTree = "<group>"; };
 		CC50A0281CAA059B00FF52B3 /* UITableViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC50A02C1CAA059B00FF52B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC50A02E1CAA059B00FF52B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CC50A02F1CAA059B00FF52B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CC50A0311CAA059B00FF52B3 /* CMLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CMLViewController.h; path = ../CMLViewController.h; sourceTree = "<group>"; };
-		CC50A0321CAA059B00FF52B3 /* CMLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CMLViewController.m; path = ../CMLViewController.m; sourceTree = "<group>"; };
 		CC50A0351CAA059B00FF52B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC50A0371CAA059B00FF52B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC50A03A1CAA059B00FF52B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -87,8 +87,8 @@
 		CC50A0441CAA05F000FF52B3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CC50A0311CAA059B00FF52B3 /* CMLViewController.h */,
-				CC50A0321CAA059B00FF52B3 /* CMLViewController.m */,
+				7C7F79531CAB5FB0000F0C48 /* CMLViewController.h */,
+				7C7F79541CAB5FB0000F0C48 /* CMLViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC50A04D1CAA068F00FF52B3 /* CMLTableView.m in Sources */,
-				CC50A0331CAA059B00FF52B3 /* CMLViewController.m in Sources */,
+				7C7F79551CAB5FB0000F0C48 /* CMLViewController.m in Sources */,
 				CC50A0301CAA059B00FF52B3 /* AppDelegate.m in Sources */,
 				CC50A02D1CAA059B00FF52B3 /* main.m in Sources */,
 			);
@@ -324,6 +324,7 @@
 				CC50A0411CAA059B00FF52B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
